@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    text-decoration: none;
+}
+h1{
+    background-color: tomato;
+    color: bisque;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.blog{
+    background-color: darkcyan;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: burlywood;
+    text-align: center;
+    
+}
