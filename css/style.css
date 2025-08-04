@@ -3,9 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
-li{
+.container{
+    width: 1320px;
+    margin: auto;
+}
+a{
     text-decoration: none;
 }
+li{
+    
+    list-style: none;
+}
+.menu{
+    display: flex;
+    background-color: mediumaquamarine;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.menu button{
+    margin-left: 40pc;
+    background-color: darkblue;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+} 
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu ul li{
+    margin-left: 10px;
+    justify-content: center;
+    
+}
+
 h1{
     background-color: tomato;
     color: bisque;
@@ -23,4 +62,7 @@ h1{
 }
 video{
     width: 50%;
+}
+footer{
+    text-align: center;
 }
